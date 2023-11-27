@@ -1,6 +1,6 @@
 let inventory = [
-    { code: "2356", name: 'Martillo', quantity: 10 },
-    { code: "0034", name: 'Destornillador', quantity: 20 }
+    { code: "2356", name: 'Acetaminofen', quantity: 10 },
+    { code: "0034", name: 'Buscapina', quantity: 20 }
 ];
 
 let currentUser = null;
