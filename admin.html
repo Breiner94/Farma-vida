@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
+    
     <h1>Inventario FARMA VIDA</h1>
+    
     <div id="inventory-section" style="height: 200px; overflow-y: scroll;">
+        <div id="message"></div>
         <h2>Inventario</h2>
         <ul id="product-list"></ul>
     </div>
@@ -23,7 +26,15 @@
             <button type="button" onclick="addProduct()">Agregar</button>
         </form>
     </div>
-    <div id="message"></div>
+
+    <div id="delete-product-form"> 
+        <h2> Eliminar producto </h2>
+        <input type="text" id="codigo-dado" placeholder="Código del Producto" required>
+        <button type="button" onclick="deleteProduct()">Eliminar</button>
+    </div>
+
+
     <script src="./scripts/inventario.js"></script>
+
 </body>
 </html>
