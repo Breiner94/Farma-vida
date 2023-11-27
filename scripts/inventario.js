@@ -52,7 +52,7 @@ function addProduct() {
         inventory.push({code: codeProduct, name: productName, quantity: productQuantity });
         showInventory();
         hideAddProductForm();
-        showMessage(`Medicamento agregado del invetario`);
+        showMessage(`Medicamento agregado al invetario`);
     } else {
         showMessage('Por favor, ingrese un nombre de producto válido y una cantidad válida.');
     }
